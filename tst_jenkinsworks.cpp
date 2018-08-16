@@ -11,8 +11,8 @@ public:
     ~JenkinsWorks();
 
 private slots:
-    void test_case1();
-
+    void test_fail();
+    void test_succes();
 };
 
 JenkinsWorks::JenkinsWorks()
@@ -25,9 +25,14 @@ JenkinsWorks::~JenkinsWorks()
 
 }
 
-void JenkinsWorks::test_case1()
+void JenkinsWorks::test_succes()
 {
+ QCOMPARE(1,1);
+}
 
+void JenkinsWorks::test_fail()
+{
+    QCOMPARE(1,0);
 }
 
 QTEST_APPLESS_MAIN(JenkinsWorks)
