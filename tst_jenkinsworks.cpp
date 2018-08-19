@@ -33,7 +33,7 @@ void JenkinsWorks::test_succes()
 void JenkinsWorks::test_fail()
 {
     QCOMPARE(1,1);
-    /// no dails  dd
+    /// no dails  ddaaa
 }
 
 QTEST_APPLESS_MAIN(JenkinsWorks)
