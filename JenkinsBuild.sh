@@ -1,3 +1,3 @@
     mkdir -p buildJenkins
     ( cd buildJenkins ; qmake ../SimpleJenkinsSetup.pro ; make )
-    (cd buildJenkins ; ./SimpleJenkinsSetup -o SimpleJenkinsSetup.xml -xml  )
+    (cd buildJenkins ; ./SimpleJenkinsSetup -o SimpleJenkinsSetup.xml -xml -v2  )

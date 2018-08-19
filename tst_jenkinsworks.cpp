@@ -32,7 +32,9 @@ void JenkinsWorks::test_succes()
 
 void JenkinsWorks::test_fail()
 {
-    QCOMPARE(1,0);
+    QCOMPARE(1,1);
+    QCOMPARE(1,1);
+    QCOMPARE(1,1);
     /// no dails  ddaaa
 }
 
